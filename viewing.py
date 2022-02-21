@@ -15,10 +15,16 @@ def access_by_profile(data_set):
 
 def choose_user(df):
     name = input('Which user would you look at?')
+    #meets cateogry 1 - Calculate and display data based on an external factor
     if name == ('Tyler' or 'Bobby'):
         df_user = df[df['Profile Name'].str.contains(name)]
         return(df_user)
     else:
-        print('There is not a user by that name.')
+       return('There is not a user by that name.')
 
-#access_by_profile(df)
+def main():
+    access_by_profile(df)
+    print(choose_user(df))
+
+if __name__ == "__main__":
+    main()
