@@ -14,7 +14,7 @@ def access_by_profile(data_set):
     return(fig.show())
 
 def choose_user(data_set):
-    name = input('Which user would you look at?  ')
+    name = input('Which user would you look at (Tyler, Bobby, Donna, Kids)?  ')
     name = name.capitalize()
     #meets cateogry 1 - Calculate and display data based on an external factor
     if name == 'Tyler' or 'Bobby' or 'Donna' or 'Kids':
@@ -22,7 +22,6 @@ def choose_user(data_set):
         top10_episodes = df_user['Title'].value_counts().head(10).reset_index()
         fig = px.bar(top10_episodes, x='index', y='Title', title="Top 10 Most Watched Episodes")
         return(fig.show())
-        
     else:
        return('There is not a user by that name.')
 
