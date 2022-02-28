@@ -1,8 +1,5 @@
 # Ignore virtual envirnoments
 venv/
 
-#Ignore my data from Netflix
-ViewingActivity.csv
-
 #ignore the jupyter notebook
 main.ipynb
