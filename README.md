@@ -12,7 +12,7 @@ This project focuses on using Netflix data from my account. Based on user input 
 
 **Data Source**
 
-My data source was downloaded from my netflix account for 4 users. 
+My data source was downloaded from my netflix account for 4 users: ViewingActivity.csv
 
 **Requirements**
 
@@ -53,3 +53,4 @@ Windows
 - [] Determine top 10 favorite shows based on input
 - [] Determine top 10 favorite movies based on input
 - [] Ask the program user for movie/tv show and see if a netflix user has watched it
+- [] Show user usage over time based on input
