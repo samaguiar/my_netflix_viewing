@@ -1,20 +1,26 @@
 # my_netflix_viewing
 
+**Overview** 
 
-**The Question:** 
-1) What are the most watched shows by a user? 
+
+
+**The Questions** 
+1) Who used the netflix account the most?
 2) What are the top ten most watched show for a specific user? 
 3) What is the frequency of each episode for the top ten shows?
 
 **Data Source**
+
 My data source was downloaded from my netflix account for 4 users. 
 
 **Requirements**
+
 All need packages can be installed by the requirements.txt file. The following packages are included:
 - pandas
-- matplotlib
+- plotly
 
 **Features Included**
+
 The features included for the Data Anaylsis 1 Project are: 
 
 1) Category 1 - I created master loop where a person can put various inputs and exit program. The master loop will ask the user if they want to look at all users data or individual data. It will also allow the user to quit the program. 
@@ -29,8 +35,11 @@ The features included for the Data Anaylsis 1 Project are:
 
 
 **Special Instructions**
-In the terminal, create a virtual envirnoment with the requirements in the requirements.txt. 
-Once the virtual envirnoment is activated, run python3 viewing.py in the terminal. 
+- Describe how to get install env and get requirements with requirments.txt
+- Descirbe how to run program in terminal
 
 
 **Next Steps**
+[] Determine top 10 favorite shows based on input
+[] Determine top 10 favorite movies based on input
+[] Ask the program user for movie/tv show and see if a netflix user has watched it
