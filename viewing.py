@@ -42,10 +42,14 @@ def main():
     determine = input('Would you like to look at all user data (A) or individiual user (I)? Press Q to Quit.  ')
     while determine !='Q':
         if determine == 'A':
+            #create graph with all user data by usage
             access_by_profile(df)
+            #cycles back to original question to look at different anaylsis or quit
             determine = input('Would you like to look at all user data (A) or individiual user (I)? Press Q to Quit.  ')
         elif determine == 'I':
+            #individual users selected; choose_user function will run
             print(choose_user(df))
+             #cycles back to original question to look at different anaylsis or quit
             determine = input('Would you like to look at all user data (A) or individiual user (I)? Press Q to Quit.  ')     
     print('You quit the program. Have a good day!')
 
