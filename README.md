@@ -2,6 +2,7 @@
 
 **Overview** 
 
+This project focuses on using Netflix data from my account. Based on user input through the program, different graphical representation will be created. 
 
 
 **The Questions** 

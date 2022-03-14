@@ -5,6 +5,11 @@ import plotly.express as px
 df = pd.read_csv('ViewingActivity.csv')
 
 def access_by_profile(data_set):
+    """
+    input: a data set for Netflix Users
+
+    output: a pie graph showing the profile name and number of times each user accessed the account
+    """
     profile_names = data_set['Profile Name'].value_counts()
     profile_names = profile_names.reset_index()
     profile_names = profile_names.rename(columns={'index':'Profile', 'Profile Name':'Number of Times Accessed'})
@@ -14,6 +19,11 @@ def access_by_profile(data_set):
     return(fig.show())
 
 def choose_user(data_set):
+    """
+    input: data set for Netiflix User
+
+    output: a bar graph for a specific user showing the top 10 watched episodes
+    """
     name = input('Which user would you look at (Tyler, Bobby, Donna, Kids)?  ')
     name = name.capitalize()
     
@@ -25,9 +35,10 @@ def choose_user(data_set):
     else:
        return('There is not a user by that name.')
 
-#meets category 1 - creates master loop where person can put various inputs and exit program
-#meets category 1 - runs 3 functions
+
+#meets category 1 - runs 3 functions (access_by_profile, choose_user, main)
 def main():
+    #meets category 1 - creates master loop where person can put various inputs and exit program
     determine = input('Would you like to look at all user data (A) or individiual user (I)? Press Q to Quit.  ')
     while determine !='Q':
         if determine == 'A':
