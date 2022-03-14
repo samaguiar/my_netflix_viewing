@@ -35,11 +35,20 @@ The features included for the Data Anaylsis 1 Project are:
 
 
 **Special Instructions**
-- Describe how to get install env and get requirements with requirments.txt
-- Descirbe how to run program in terminal
+MacOS/Unix
 
+1. Create a virtual environment: python3 -m venv env
+2. Activate virtual environment: source env/bin/activate
+3. Install requirements: python3 -m pip install -r requirements.txt
+4. Run the following code to start the program: python3 viewing.py
+
+Windows
+1. Create a virtual environment: py -m venv env
+2. Activate virtual environment: .\env\Scripts\activate
+3. Install requirements: py -m pip install -r requirements.txt
+4. Run the following code to start the program: py viewing.py
 
 **Next Steps**
-[] Determine top 10 favorite shows based on input
-[] Determine top 10 favorite movies based on input
-[] Ask the program user for movie/tv show and see if a netflix user has watched it
+- [] Determine top 10 favorite shows based on input
+- [] Determine top 10 favorite movies based on input
+- [] Ask the program user for movie/tv show and see if a netflix user has watched it
