@@ -12,7 +12,7 @@ This project focuses on using Netflix data from my account. Based on user input 
 
 **Data Source**
 
-My data source was downloaded from my netflix account for 4 users: ViewingActivity.csv
+My data source was downloaded from my netflix account for 4 users. It is saved as ViewingActivity.csv. 
 
 **Requirements**
 
