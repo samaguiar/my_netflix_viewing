@@ -36,18 +36,19 @@ The features included for the Data Anaylsis 1 Project are:
 
 
 **Special Instructions**
-MacOS/Unix
+1. Run git clone https://github.com/samaguiar/my_netflix_viewing.git to clone repo.
 
-1. Create a virtual environment: python3 -m venv env
+MacOS/Unix
+2. Create a virtual environment: python3 -m venv env
 2. Activate virtual environment: source env/bin/activate
 3. Install requirements: python3 -m pip install -r requirements.txt
 4. Run the following code to start the program: python3 viewing.py
 
 Windows
-1. Create a virtual environment: py -m venv env
-2. Activate virtual environment: .\env\Scripts\activate
-3. Install requirements: py -m pip install -r requirements.txt
-4. Run the following code to start the program: py viewing.py
+2.  Create a virtual environment: py -m venv env
+3. Activate virtual environment: .\env\Scripts\activate
+4. Install requirements: py -m pip install -r requirements.txt
+5. Run the following code to start the program: py viewing.py
 
 **Next Steps**
 - [] Determine top 10 favorite shows based on input
