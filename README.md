@@ -24,10 +24,10 @@ All need packages can be installed by the requirements.txt file. The following p
 
 The features included for the Data Anaylsis 1 Project are: 
 
-### 1) Category 1: Python Programming Basics ###
+#### 1) Category 1: Python Programming Basics ####
 - I created master loop where a person can put various inputs and exit program. The master loop will ask the user if they want to look at all users data or individual data. It will also allow the user to quit the program. 
 
-###  2) Category 1: Python Programming Basics ### 
+####  2) Category 1: Python Programming Basics #### 
 - The program runs 3 functions in the program: access_by_profile, choose_user, and main. 
   - access_by_profile function creates a table based on profile name and number of unique access points. It will then create a pie chart based on the table. 
   - choose_user function takes an input based on a specific user and will create a bar chart for the top 10 episodes watched. 
