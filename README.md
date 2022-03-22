@@ -1,26 +1,26 @@
 # my_netflix_viewing
 
-**Overview** 
+## Overview ## 
 
 This project focuses on using Netflix data from my account. Based on user input through the program, different graphical representation will be created. 
 
 
-**The Questions** 
+## The Questions ## 
 1) Who used the netflix account the most?
 2) What are the top ten most watched show for a specific user? 
 3) What is the frequency of each episode for the top ten shows?
 
-**Data Source**
+## Data Source ##
 
 My data source was downloaded from my netflix account for 4 users. It is saved as ViewingActivity.csv. 
 
-**Requirements**
+## Requirements ##
 
 All need packages can be installed by the requirements.txt file. The following packages are included:
 - pandas
 - plotly
 
-**Features Included**
+## Features Included ##
 
 The features included for the Data Anaylsis 1 Project are: 
 
@@ -33,18 +33,18 @@ The features included for the Data Anaylsis 1 Project are:
   - choose_user function takes an input based on a specific user and will create a bar chart for the top 10 episodes watched. 
   - main runs the master loop and asks two questions. Based on the input, the program will show various graphical representation. 
 
-###  3) Category 2: Utilize External Data ### 
+####  3) Category 2: Utilize External Data #### 
 - The program reads a csv file from an external source. 
 
-###  4) Category 3: Data Display ### 
+####  4) Category 3: Data Display #### 
 - The program creates a pie chart and bar graph based on a specific input. 
 
-###  5) Category 4: Best Practices ### 
+####  5) Category 4: Best Practices ####
 - The program utilize a virtual environment and document library dependencies in a requirements.txt file.
 
 
 
-**Special Instructions**
+## Special Instructions ##
 1. Run git clone https://github.com/samaguiar/my_netflix_viewing.git to clone repo.
 
 MacOS/Unix
@@ -60,7 +60,7 @@ Windows
 4. Install requirements: `py -m pip install -r requirements.txt`
 5. Run the following code to start the program: `py viewing.py`
 
-**Next Steps**
+## Next Steps ##
 - [] Determine top 10 favorite shows based on input
 - [] Determine top 10 favorite movies based on input
 - [] Ask the program user for movie/tv show and see if a netflix user has watched it
