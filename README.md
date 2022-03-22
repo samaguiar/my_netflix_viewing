@@ -55,6 +55,7 @@ MacOS/Unix
 4. Run the following code to start the program: `python3 viewing.py`
 
 Windows
+
 2. Create a virtual environment: `py -m venv env`
 3. Activate virtual environment: `.\env\Scripts\activate`
 4. Install requirements: `py -m pip install -r requirements.txt`
