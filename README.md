@@ -45,7 +45,7 @@ The features included for the Data Anaylsis 1 Project are:
 
 
 ## Special Instructions ##
-1. Run git clone https://github.com/samaguiar/my_netflix_viewing.git to clone repo.
+1. Run `git clone https://github.com/samaguiar/my_netflix_viewing.git` to clone repo.
 
 MacOS/Unix
 
